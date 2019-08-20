@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.publish_text{
+    width: 710px;
+    height: 120px;
+    margin-left: 300px;
+}
+
+.pub_tex1{
+    width: 710px;
+    height: 75px;
+    background-color: white;
+}
+
+
+.text_area{
+    width: 650px;
+    height: 75px;
+}
+
+.pub_img1{
+    display: block;
+    width: 27px;
+    height: 25px;
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    cursor: pointer;
+    background: url('../images/35.32-yoo190131143813.png')1.5px 35px;
+}
+
+.pub_img1:hover{
+    background: url('../images/35.32-yoo190131143813.png')-25px 35px;
+}
+
+.pub_tex2{
+    background-color: rgb(28, 165, 252);
+    color: white;
+    border: 1px solid rgb(28, 165, 252);
+    cursor: pointer;
+}
+/*.pub_tex2:hover{*/
+    /*background-color:rgb(100, 205, 212);*/
+/*}*/
+
+.text_pub input{
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 80px;
+}
+
+
+.lmlblog-no-like{
+    background: url('../images/35.32-yoo190131143813.png')-50px -25px;
+}
+
+.lmlblog-no-like1 i{
+    /*相机*/
+
+    background: url('../images/35.32-yoo190131143813.png')-2px -405px;
+}
+.lmlblog-no-like1:hover{
+    color: red;
+}
+
+/*.zan1{*/
+    /*border: 1px solid black;*/
+/*}*/
+
+.zan2{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url('../images/35.32-yoo190131143813.png')-50px -25px;
+}
+
+.zan2:hover{
+    background: url('../images/35.32-yoo190131143813.png')-50px 30px;
+}
+
+.like .active{
+    color: #f22;
+}
+
+.like_1 .active{
+    color: #f22;
+}
+.zan1{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url('../images/35.32-yoo190131143813.png')-50px 30px;
+}
+
+.like1{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url('../images/35.32-yoo190131143813.png')-270px -538px;
+}
+
+.like2:hover{
+    background: url('../images/35.32-yoo190131143813.png')-270px -538px;
+}
+
+.like2{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url('../images/35.32-yoo190131143813.png')-82px -31px;
+}
+
+
+.move_cont{
+    width: 430px;
+    height: 130px;
+    background:white;
+
+}
+
+
+.clos{
+    width: 10px;
+    height: 9px;
+    position: absolute;
+    margin-left: 365px;
+    margin-top: 10px;
+    background: url("../images/sprite.png")-0 -9px;
+
+}
+.clos:hover{
+    background: url("../images/sprite.png")-50.2px;
+    cursor: pointer;
+}
+
+.move_font1{
+    font-size: 13px;
+    font-family: 黑体;
+    line-height: 35px;
+    margin-left: 20px;
+}
+
+.send{
+    width: 50px;
+    height: 22px;
+    border: 1px solid rgb(97, 170, 230);
+    background-color:rgb(97, 170, 230) ;
+    color: white;
+    font-size: 11px;
+    margin-top: 18px;
+    margin-left: 352px;
+}
+.move_div2{
+    width: 430px;
+    height: 35px;
+    background: rgb(243, 243, 243);
+}
+
+.move_cont2{
+    position: relative;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.move_font{
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url('../images/35.32-yoo190131143813.png')-40px -55px;
+    margin-left: -20px;
+    margin-top: 6px;
+}
+
+.move_font:hover{
+    background: url('../images/35.32-yoo190131143813.png')-50px -3px;
+}
+
+.d_move{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -31px;
+}
+
+.comm_1{
+    margin-left: 0;
+    text-align: left;
+}
+
+#comment_2 .comm_1{
+    padding: 10px;
+    text-align: left;
+}
+
+.comm_2{
+    margin-left: 50px;
+}
+.reply_1_css{
+    width:18px;
+    height: 18px;
+    background-image: url('../images/35.32-yoo190131143813.png');
+    background-position: -102px -918px;
+    margin-left: 150px;
+    margin-top: -16px;
+    display: block;
+}
+
+.reply_2_css{
+    display: block;
+    width:18px;
+    height: 18px;
+    background-image: url('../images/35.32-yoo190131143813.png');
+    background-position: -102px -918px;
+    margin-left: 130px;
+    margin-top: -18px;
+}
+.comm_con1{
+    border: 1px silver solid;
+    width: 650px;
+    height: 40px;
+    line-height: 40px;
+    font-family: 楷体;
+    cursor: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.comm_1_pic{
+    width:18px;
+    height: 18px;
+    background-image: url('../images/35.32-yoo190131143813.png');
+    background-position: -102px -918px;
+    margin-top: 9px;
+}
+.like_pic{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/35.32-yoo190131143813.png);
+    background-position: -58px -832px;
+}
+.like_names{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: -20px;
+}
+
+
+
